@@ -1,0 +1,174 @@
+{
+    "pratidhwani": {
+        "ID": "8cea57d2-54b9-47a9-bc80-4b790bd3cc93",
+        "country": {
+            "US": {
+                "date": "2022-07-01",
+                "price": 0,
+                "time": "18:00"
+            }
+        },
+        "description": "This unique musical series is an attempt to showcase the various colours of monsoon season captured in north Indian classical music, Indian film music and works of Nobel laureate Rabindranath Tagore. Each episode will be a blissful musical presentation walking you through one of these. Sit back, relax and get drenched in the mysticism of the monsoon, embarking on a journey through the rhythm of rain!",
+        "endDate": "2022-08-26",
+        "episodes": [
+            {
+                "ID": "b0fe58e2-713c-4664-b9b0-3f0feb89d2f9",
+                "country": {
+                    "IN": {
+                        "date": "2022-07-01",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-07-01",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Bansuri or the Indian Bamboo Flute is perhaps one of the oldest musical instruments. From being a folkloric instrument, it has now carved its distinct identity in the classical music fraternity. The maiden episode of Mystic Monsoon, on 1 July 2022 presents a Bansuri recital by Shri Jayateerth Kulkari accompanied by Shri Dipin Das A D on the tabla. Enjoy the monsoon of 2022 with the tootle of the Bansuri!",
+                "link": "https://player.vimeo.com/video/725864873",
+                "payment": "free",
+                "title": "Episode 1: Jayateertha Kulkarni"
+            },
+            {
+                "ID": "b578bdba-c039-450c-988d-bf26a6dc745e",
+                "country": {
+                    "IN": {
+                        "date": "2022-07-08",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-07-08",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "The mysticism of monsoons has inspired a wide spectrum of semi-classical musical genres such as Kajri or Jhoola. Composers, drawing roots from Indian classical ragas and folk art forms, have created musical masterpieces celebrating the bliss of rains, invoking the rain gods during dry seasons or in their praise otherwise. Episode 2 of Mystic Monsoon, on 8 July 2022 at 6pm IST, presents glimpses of such immortal creations in the melodious voice of Smt. Piu Mukherjee accompanied by Shri Jyotirmoy Banerjee on the Harmonium and Shri Debashish Singharoy on the Tabla. Enjoy the monsoon of 2022 with the jingle of semi-classical monsoon melodies.",
+                "link": "https://player.vimeo.com/video/727252292",
+                "payment": "free",
+                "title": "Episode 2: Piu Mukherjee"
+            },
+            {
+                "ID": "9db05267-6c2c-4752-a633-a50d78014dc4",
+                "country": {
+                    "IN": {
+                        "date": "2022-07-15",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-07-15",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Seasons have a deep influence on the origins of Indian classical ragas and monsoon is perhaps the most diverse of them all. These creations come to life through instrumentalists and vocalists presenting them. Episode 3 of Mystic Monsoon, on 15 July 2022 at 6pm onwards, presents a sitar recital by Shri Sourav Ganguly accompanied by Shri Supriyo Roy on the Tabla. The event would be hosted by Shri Indrajit Roy Chowdhury. Experience the resonance of the rains through the chime of the sitar.",
+                "link": "https://player.vimeo.com/video/729845996",
+                "payment": "free",
+                "title": " Episode 3: Sourav Ganguly"
+            },
+            {
+                "ID": "ce62d5eb-b477-449b-8923-643523c7893b",
+                "country": {
+                    "IN": {
+                        "date": "2022-07-22",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-07-22",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Khayal and Dhrupad are the most prominent genres of north Indian classical vocal music today, painting the raga with compositions and ornamental elements. Episode 4 of Mystic Monsoon, on 22 July 2022 at 6pm, presents a Hindustani vocal recital by Shri Omkar Dadarkar accompanied by Shri Tathagata Mishra on the Harmonium and Shri Bibhas Sanghai Tabla. The event would be hosted by Shri Indrajit Roy Chowdhury. Experience the meditative grandeur of the rains with TV Dhwani.",
+                "link": "https://player.vimeo.com/video/732153163",
+                "payment": "free",
+                "title": " Episode 4: Omkar Dadarkar"
+            },
+            {
+                "ID": "4283cb8c-a6b7-4940-881e-2f5b76e97e6b",
+                "country": {
+                    "IN": {
+                        "date": "2022-07-29",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-07-29",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Violin closely resembles the human voice making it one of the most widely used instruments across the globe. Its singing tone and capability to sustain notes for long, bring Bandishes to life.  Episode 5 of Mystic Monsoon, on 29 July 2022 at 6pm, presents a violin recital by Shri Sarada Prasan, accompanied by Shri Dusyant Rupoliya on the Tabla. The event would be hosted by Shri Indrajit Roy Chowdhury. Enjoy the monsoon of 2022 with the legato and tremolo of the violin on TV Dhwani.",
+                "link": "https://player.vimeo.com/video/733860945",
+                "payment": "free",
+                "title": "Episode 5: Sarada Prasan"
+            },
+            {
+                "ID": "7e863919-f0f7-4b31-89bb-b9382b3444a2",
+                "country": {
+                    "IN": {
+                        "date": "2022-08-05",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-08-05",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Monsoon in India has always inspired artistes in many ways to express their thoughts in their respective mediums. Bollywood is not an exception in that. Directors, composers have always been inspired in many ways to depict the beautiful monsoon of India in many ways- sometimes romantic, sometimes melancholic, sometimes only the charm of nature. Our episode “Bollywood on Monsoon” is beautifully designed and edited by Sri Somjit Chatterjee and presented by Sri Vijay Bhatt. Somjit’s voice along with related clippings created a special feeling in the hearts of viewers. Enjoy the Monsoon through Bollywood.",
+                "link": "https://player.vimeo.com/video/736385065",
+                "payment": "free",
+                "title": "Episode 6: Shomjit Chatterjee"
+            },
+            {
+                "ID": "22175a4f-c943-4b09-9a98-9d7da6939049",
+                "country": {
+                    "IN": {
+                        "date": "2022-08-12",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-08-12",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "Anirban Dasgupta represents one of India’s leading Sarode Style SENIA SHAJAHANPUR. Son of a illustrious father and stalwart Sarode maestro Pandit Buddhadev Dasgupta , Anirban him self is a very well known and established Sarode exponent. Representing the famous Amir Khan and Radhika Mohan Moitra’s style, Anirban has explored some of the rarest Ragas such as Jayant Malhar and Dhulia Mallhar in Sarode in this episode. Anirban has beautifully completed this episode with a composition  of his Illustrious father inspired and based on the song of  Indian Nobel Laureate Rabindranath Tagore.  ",
+                "link": "https://player.vimeo.com/video/738506984",
+                "payment": "free",
+                "title": "Episode 7: Anirban Dasgupta"
+            },
+            {
+                "ID": "22175a4f-c943-4b09-9a98-9d7da6939049",
+                "country": {
+                    "IN": {
+                        "date": "2022-08-19",
+                        "price": 0,
+                        "time": "18:00"
+                    },
+                    "US": {
+                        "date": "2022-08-19",
+                        "price": 0,
+                        "time": "18:00"
+                    }
+                },
+                "description": "\"MYSTIC MONSOON\" comes to an end for this season with a tribute to Rabindra Nath Tagore.Tagore was highly emotional and influenced by the monsoon of Bengal. He created many immortal poems and songs on \"Varsha\" (monsoon). In this episode our humble endeavor to bring forward some of his immortal compositions.",
+                "link": "https://player.vimeo.com/video/740790086",
+                "payment": "free",
+                "title": "Episode 8: Dayita Datta"
+            }
+        ],
+        "startDate": "2022-07-01",
+        "status": "active",
+        "title": "Mystic Monsoon",
+        "type": "self",
+        "url": "mystic-monsoon",
+        "year": 2022
+    }
+}

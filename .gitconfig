@@ -1,0 +1,14 @@
+[user]
+    name = Thisisashutosh
+    email = thisisashutoshdubey@gmail.com
+    password = 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
+[http]
+    sslVerify = false
+[https]
+    sslverify = false
+[push]
+    default = simple
+[credential]
+    helper = cache --timeout=360000000
+[core]
+    autocrlf = false

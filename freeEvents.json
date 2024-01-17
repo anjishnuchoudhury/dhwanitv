@@ -1,0 +1,134 @@
+{
+  "gurusmaran2022" : {
+    "ID" : "1ed34450-9fc8-4b88-9f69-54d87fcfd413",
+    "country" : {
+      "IN" : {
+        "date" : "2022-07-13",
+        "price" : "0.00",
+        "time" : "18:00"
+      },
+      "US" : {
+        "date" : "2022-07-13",
+        "price" : "0.00",
+        "time" : "18:00"
+      }
+    },
+    "createdAt" : "Tue Jul 12 2022 20:29:19 GMT-0400 (Eastern Daylight Time)",
+    "description" : "Guru Purnima is a day dedicated to gurus and devotees who thank them for enlightening them. The term 'guru' has a meaning behind it. 'Gu' stands for darkness and 'Ru' means removing darkness. Featuring Smt. Pramodini Rao and team with beautiful bhajans dedicated to all Gurus",
+    "link" : "https://player.vimeo.com/video/729541459",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Guru Smaran 2022"
+  },
+  "panditjnanprakashghoshmemorialtablacompetition" : {
+    "ID" : "11aac80b-7d8e-467c-915b-4bb8aad12c5a",
+    "country" : {
+      "IN" : {
+        "date" : "2022-01-09",
+        "price" : "0.00",
+        "time" : "17:00"
+      },
+      "US" : {
+        "date" : "2022-01-09",
+        "price" : "0.00",
+        "time" : "17:00"
+      }
+    },
+    "createdAt" : "Wed Dec 29 2021 14:22:32 GMT-0500 (Eastern Standard Time)",
+    "description" : "This is a FREE online event, open to all which will be held from https://www.tvdhwani.com/\nfrom 5 pm onwards on 6th January, Thursday, 2022. All group Topper: Arijeet  Banerjee(Pakhawaj, Group - A) Special prize according to Judges decision: Sanketh Srinivas Kaushik(Tabla, Group - A). Tabla Group-A: 1st prize-Suman Sarkar, 2nd prize - Koustabh Dhar, 3rd prize - Archishman Sinha Roy Tabla Group-B: 1st prize-Pratik Joadder, 2nd prize-Dipin Das, 3rd prize-Nilesh Kundu",
+    "link" : "https://player.vimeo.com/video/663849281",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Pandit Jnan Prakash Ghosh Memorial Tabla Competition"
+  },
+  "pratidhwani2022:episode1" : {
+    "ID" : "e99cebf7-bf08-41e4-a396-6554fc94d270",
+    "country" : {
+      "IN" : {
+        "date" : "2022-09-03",
+        "price" : "0.00",
+        "time" : "18:00"
+      },
+      "US" : {
+        "date" : "2022-09-03",
+        "price" : "0.00",
+        "time" : "18:00"
+      }
+    },
+    "createdAt" : "Fri Sep 02 2022 20:52:55 GMT-0400 (Eastern Daylight Time)",
+    "description" : "Pratidhwani 2022: Episode 1",
+    "link" : "https://player.vimeo.com/video/745974236",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Pratidhwani 2022: Episode 1"
+  },
+  "pratidhwani2022:episode2" : {
+    "ID" : "a5c06167-2c2e-48aa-afcb-5c197fc1fb0f",
+    "country" : {
+      "IN" : {
+        "date" : "2022-09-10",
+        "price" : "0.00",
+        "time" : "18:00"
+      },
+      "US" : {
+        "date" : "2022-09-10",
+        "price" : "0.00",
+        "time" : "18:00"
+      }
+    },
+    "createdAt" : "Fri Sep 02 2022 20:54:59 GMT-0400 (Eastern Daylight Time)",
+    "description" : "Pratidhwani 2022: Episode 2",
+    "link" : "https://player.vimeo.com/video/748147807",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Pratidhwani 2022: Episode 2"
+  },
+  "raaga&rhythm-youngseries:e3" : {
+    "ID" : "f0b87d4f-c21f-42b6-9a4f-17a5766dacdc",
+    "country" : {
+      "IN" : {
+        "date" : "2021-12-26",
+        "price" : "0.00",
+        "time" : "18:00"
+      },
+      "UK" : {
+        "date" : "2021-12-26",
+        "price" : "0.00",
+        "time" : "18:00"
+      },
+      "US" : {
+        "date" : "2021-12-26",
+        "price" : "0.00",
+        "time" : "18:00"
+      }
+    },
+    "createdAt" : "Tue Dec 21 2021 11:23:18 GMT-0500 (Eastern Standard Time)",
+    "description" : "This is to let you know that this is the last event, hosted by Dhwani Academy of Percussion Music, Northern California Unit, to be held on 26th December, 2021, Sunday at 6 pm. ",
+    "link" : "https://player.vimeo.com/video/660170753",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Raaga & Rhythm - young series : E3"
+  },
+  "raagekrasaanek" : {
+    "ID" : "4f065a5f-acb6-493c-8c12-b7fbde1ddd76",
+    "country" : {
+      "IN" : {
+        "date" : "2022-06-21",
+        "price" : "0.00",
+        "time" : "00:00"
+      },
+      "US" : {
+        "date" : "2022-06-21",
+        "price" : "0.00",
+        "time" : "00:00"
+      }
+    },
+    "createdAt" : "Mon Jun 20 2022 22:31:05 GMT-0400 (Eastern Daylight Time)",
+    "description" : "Raag Ek Rasa Anek",
+    "link" : "https://player.vimeo.com/video/722391678",
+    "metadata" : "",
+    "payment" : "free",
+    "title" : "Raag Ek Rasa Anek"
+  }
+}
+
