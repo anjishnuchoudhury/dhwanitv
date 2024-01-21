@@ -49,11 +49,13 @@ code {
   cursor: pointer;
 }
 .backdrop-image{
-  background: url(./images/tabla-ensemble.jpg) rgb(0 0 0 / 20%);
+  background: url(./images/tabla-ensemble.jpg) rgb(0 0 0 / 30%);
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
-  background-blend-mode: hard-light;
+  background-blend-mode: darken;
+  height: 70vh;
+  filter: brightness(100%);
 }
 .field-error-message {
   color: #ed0000;
@@ -71,14 +73,14 @@ code {
   color: #fff !important; 
 }
 .header-background{
-  background-color: #0a0225;
+  background-color: #000000;
 }
 .header-nav-link{
   color: #fff;
   font-weight: bold;
 }
 .header-nav-link:hover{
-  color: rgb(196, 167, 115); 
+  color: rgb(160, 159, 155); 
   /* color: rgb(254 247 13); */
   text-decoration: none;
 }
@@ -88,7 +90,7 @@ code {
   color: #fff;
 }
 .profile-btn{
-  background-color: #7051e3 !important;
+  background-color:red !important;
   /* padding: 30% 42% !important; */
   border-radius: 50% !important;
   font-weight: bold !important;
@@ -97,10 +99,13 @@ code {
   width: 50px;
 }
 .profile-btn:hover{
-  background: #5425ff !important;
+  background: rgba(255, 0, 0, 0.653) !important;
 }
 .dropdown-toggle::after{
   display: none !important;
+}
+.dropdown-hover::hover{
+  background: red !important;
 }
 .profile-name-dropdown{
   width: 100%;
@@ -123,11 +128,19 @@ code {
 }
 .btn-tv-home{
   background-color: red !important;
-  border-radius: 100px !important;
+  border-radius: 10px !important;
   font-weight: bold !important;
   padding: 10px 40px !important; 
   margin-top: 62px;
   color:#000;
+  box-shadow: 0px 0px 15px #000;
+}
+.btn-signin{
+  background-color: red !important;
+  border-radius: 10px !important;
+  font-weight: bold !important;
+  padding: 10px 25px !important;
+  color:white;
   box-shadow: 0px 0px 15px #000;
 }
 
@@ -648,7 +661,7 @@ input[type=number] {
     padding-bottom: 5%;
   }
   .backdrop-image{
-    height: auto;
+    height: 100vh;
   }
   .hr-divider-text{
     margin-left: 36%;
@@ -659,7 +672,7 @@ input[type=number] {
   .mobile-dropdown-header{
     position: relative !important;
     z-index: 1;
-    background-color: #0b0226;
+    background-color: #000000;
     padding-top: 5%;
   }
   .event-name{
@@ -739,7 +752,7 @@ input[type=number] {
   .mobile-dropdown-header{
     position: relative !important;
     z-index: 1;
-    background-color: #0b0226;
+    background-color: #000000;
     /* padding-top: 8%; */
   }
   .hr-divider-text{
