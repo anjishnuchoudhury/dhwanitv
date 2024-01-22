@@ -59,7 +59,7 @@ code {
   background-repeat: no-repeat;
   background-blend-mode: darken;
   height: 70vh;
-  filter: brightness(100%);
+  filter: brightness(95%);
 }
 .field-error-message {
   color: #ed0000;
@@ -77,7 +77,7 @@ code {
   color: #fff !important; 
 }
 .header-background{
-  background-color: #000000;
+  background-color: #121212;
 }
 .header-nav-link{
   color: #fff;
@@ -164,7 +164,7 @@ code {
   font-size: 22px;
 }
 .home-event-info{
-  background: radial-gradient(ellipse, #140351, #0a0225);
+  background: #121212;
 }
 .home-event-pics{
   background: linear-gradient(to top left, #1d0379, #0a0225);
@@ -563,7 +563,7 @@ input[type=number] {
 }
 
 .carousel-container{
-  background: radial-gradient(ellipse, #060117, #0a0225);
+  background: #121212;
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
@@ -687,7 +687,7 @@ input[type=number] {
   .mobile-dropdown-header{
     position: relative !important;
     z-index: 1;
-    background-color: #000000;
+    background-color: #121212;
     padding-top: 5%;
   }
   .event-name{
@@ -787,3 +787,41 @@ input[type=number] {
 }
 /* Ipad designs ends here */
 
+.footer-bg{
+  background-color: #121212;
+}
+
+.text-style{
+  color: #878a8f;
+  font-weight: 500;
+}
+
+.footerdimensions{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.list-style{
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: center;
+  color: white;
+  transition: 250ms all;
+}
+.contact-info{
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-items: center;
+}
+
+.ul-elem{
+  transition: 250ms all;
+}
+.li-elem::hover{
+  color: rgb(160, 159, 155);
+}
