@@ -9,6 +9,10 @@
 html{
   scroll-behavior: smooth;
 }
+.crousel-title{
+  color: white;
+  text-align: left;
+}
 
 body {
   margin: 0;
@@ -559,7 +563,7 @@ input[type=number] {
 }
 
 .carousel-container{
-  background: radial-gradient(ellipse, #140351, #0a0225);
+  background: radial-gradient(ellipse, #060117, #0a0225);
   background-repeat: no-repeat;
   /* background-attachment: fixed; */
   background-position: center;
@@ -576,9 +580,20 @@ input[type=number] {
   background-color: inherit;
   padding: 1.5%;
 }
-
+.wrapper{
+  display: grid;
+  column-gap: 0px;
+  grid-template-columns: repeat(3,100%);
+  overflow: hidden;
+  scroll-behavior: smooth;
+}
+.list-item{
+  transition: 250ms all;
+  transform: scale(0.9);
+}
 .list-item:hover{
-  transform:translate3d(0, -1%, 8em) ;
+  /* transform:translate3d(0, -1%, 8em) ; */
+  transform: scale(1);
 }
 
 .left-button{

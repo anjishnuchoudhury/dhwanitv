@@ -2,6 +2,7 @@ import React, { useEffect, useRef, useState } from 'react';
 import { useAuth } from '../context/AuthContext';
 import firebaseAppConfig from '../config/firebaseConfig.js';
 import FreeEventCarousel from './FreeEventCarousel'
+import Carousel from './Carousel.jsx';
 
 function EventCatalogue() {
     const { currentUser, getUser } = useAuth();
@@ -62,8 +63,10 @@ function EventCatalogue() {
                 listOfEventSeries.map((event, index) => {
                     return(
                         <>
-                            <div className="ml-4 mb-4 text-white carousel-event-title"><a href={`/${event.url}`} className="text-white">{event.title}</a></div>
-                            <FreeEventCarousel listOfEvents={Object.values(event.episodes)[Object.values(event.episodes).length - 1].reverse()} eventImages={eventImages} title={event.title.toLowerCase().replace(/\s+/g, '')}/> 
+                            {/* <div className="ml-4 mb-4 text-white carousel-event-title"><a href={`/${event.url}`} className="text-white">{event.title}</a></div> */}
+                            <FreeEventCarousel listOfEvents={Object.values(event.episodes)[Object.values(event.episodes).length - 1].reverse()} eventImages={eventImages} title={event.title.toLowerCase().replace(/\s+/g, '')} displayTitle={event.title}/> 
+                            {/* <Carousel listOfEvents={Object.values(event.episodes)[Object.values(event.episodes).length - 1].reverse()} eventImages={eventImages} title={event.title}/> */}
+                         
                             <br/>
                         </>
                     )
@@ -74,7 +77,7 @@ function EventCatalogue() {
                 <div className="text-center">
                   <p className="text-white mb-5">Sorry, we don't have any free events to watch</p>
                   <p className="text-white">Watch our premiered events from the vault...</p>
-                  <a href="/past-events" className="btn btn-magenta col-10 col-md-3">Watch past events</a>
+                  <a href="/past-events" className="btn btn-signin text-white col-10 col-md-3">Watch past events</a>
                 </div>
             )}
         </div>
