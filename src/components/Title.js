@@ -3,7 +3,7 @@ import React from 'react'
 export default class Title extends React.Component {
   render () {
     return (
-      <div className='backdrop-image'>
+      <div className=''>
         <div className='text-white text-left title-padding container-fluid'>
           <label className='title-title mb-4'>Tv Dhwani</label>
           <figure class='text-end h4'>
