@@ -23,7 +23,7 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #efefef !important;
+  background-color: #121212 !important;
 }
 label,
 a,
@@ -180,6 +180,9 @@ code {
 }
 /*Title: end*/
 /*Events:start*/
+.universal-bg{
+  background-color: #121212;
+}
 .home-event-title {
   font-size: 30px;
 }
@@ -190,7 +193,7 @@ code {
   background: #121212;
 }
 .home-event-pics {
-  background: linear-gradient(to top left, #1d0379, #0a0225);
+  background: white;
 }
 .home-event-end-border {
   border-top: 1px solid rgb(196, 167, 115);
@@ -319,7 +322,7 @@ code {
 /*Map: end*/
 
 .contact-backgroud-image {
-  background: radial-gradient(ellipse, #140351, #0a0225);
+  background: #121212;
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -328,30 +331,8 @@ code {
 }
 
 /*Contact: end*/
-
-.footer-bg-blue {
-  background-color: #140351;
-}
-
-.footer-background {
-  background-color: rgb(2, 0, 0);
-  position: absolute;
-  bottom: 0;
-  width: 100%;
-}
-.footer-copyright-background {
-  background-color: #0a0225;
-}
-.footer-copyright-content:hover {
-  text-decoration: none;
-}
-#fixed-footer {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-}
 .event-image {
-  background: radial-gradient(ellipse, #140351, #0a0225);
+  background: #121212;
   background-repeat: no-repeat;
   background-position: right;
   background-size: cover;
@@ -386,6 +367,9 @@ code {
   /* height: 450px; */
   overflow: hidden;
 }
+.list-container{
+  border-radius: 10px;
+}
 .event-thumbnail-image {
   width: 100%;
   height: 100%;
@@ -408,7 +392,7 @@ code {
 .login-black-container {
   width: 100%;
   position: relative;
-  background: radial-gradient(ellipse, #140351, #0a0225);
+  background: #121212;
   box-shadow: 0px 0px 20px #292f32;
 }
 a:hover {
@@ -554,9 +538,7 @@ input[type="number"] {
   height: 100%;
 }
 /* Countdown starts here */
-.countdown-boxshadow {
-  box-shadow: 0px 0px 10px #0a0225;
-}
+
 .countdown-event-label {
   font-size: 35px;
 }

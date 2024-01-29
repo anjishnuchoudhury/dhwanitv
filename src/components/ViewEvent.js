@@ -194,9 +194,9 @@ export default function ViewEvent(props) {
                             ) : (
                                 <span className='btn btn-primary watchlist-view-btn mb-5 mr-3' onClick={e => addEventToWishList}>+ Watchlist</span>
                             )}
-                            {wishFound ? <span className='btn btn-primary watchlist-view-btn mb-5 mr-3'><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Already added to watchlist</span> : <span className='btn btn-primary watchlist-view-btn mb-5 mr-3' onClick={e => addEventToWishList(props.location.event)}>+ Watchlist</span>}
+                            {wishFound ? <span className='btn btn-danger mb-5 mr-3'><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Already added to watchlist</span> : <span className='btn btn-danger mb-5 mr-3' onClick={e => addEventToWishList(props.location.event)}>+ Watchlist</span>}
                             
-                            <a className='btn btn-primary watchlist-view-btn mb-5' href="https://www.paypal.com/donate/?hosted_button_id=SUPV8YKN5RXN8">Donate Now</a>
+                            <a className='btn btn-danger mb-5' href="https://www.paypal.com/donate/?hosted_button_id=SUPV8YKN5RXN8">Donate Now</a>
                         </div>
                     </div>
                             {/* <div className="row">

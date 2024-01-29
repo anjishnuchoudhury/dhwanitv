@@ -100,7 +100,7 @@ export default function MysticMonsoon(props){
     }, []);
     return(
         <>
-            <div className='event-image countdown-boxshadow text-center pt-mb-0 pt-3'>
+            <div className='event-image text-center pt-mb-0 pt-3'>
                 <div className="container">
                     <div className="row">
                         <div className="col-12">
@@ -109,7 +109,7 @@ export default function MysticMonsoon(props){
                     </div>
                 </div>
             </div>
-            <div className="event-image countdown-boxshadow pb-5">
+            <div className="event-image pb-5">
                 <div className="container">
                     {/* <label className="col-12 pt-5 text-center text-white home-event-title">Mystic Monsoon: A journey through the rhythm of rain</label> */}
                     <div className="row">
@@ -119,7 +119,7 @@ export default function MysticMonsoon(props){
                                 <div className="dropdown mr-3 mb-5">
                                         {listOfEvents !== null && listOfEvents !== undefined && listOfEvents.length !== 0 ? (
                                             <>
-                                                <button type="button" className="btn btn-primary watchlist-btn dropdown-toggle h-100" id="latest-season" data-toggle="dropdown">{`Season ${Object.keys(listOfEvents[0].episodes)[Object.keys(listOfEvents[0].episodes).length - 1]}`}</button>
+                                                <button type="button" className="btn btn-danger dropdown-toggle h-100" id="latest-season" data-toggle="dropdown">{`Season ${Object.keys(listOfEvents[0].episodes)[Object.keys(listOfEvents[0].episodes).length - 1]}`}</button>
                                                 <ul class="dropdown-menu" >
                                                     {Object.keys(listOfEvents[0].episodes).map(key => {
                                                         return(
@@ -144,8 +144,8 @@ export default function MysticMonsoon(props){
                                     wishFound = false
                                     // <span className='btn btn-primary watchlist-btn mb-5 mr-3' onClick={addEventToWishList}>+ Watchlist</span>
                                 )}
-                                {wishFound ? <span className='btn btn-primary watchlist-view-btn mb-5 mr-3'><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Already added to watchlist</span> : <span className='btn btn-primary watchlist-view-btn mb-5 mr-3' onClick={e => addEventToWishList()}>+ Watchlist</span>}
-                                <a className='btn btn-primary watchlist-btn mb-5' href="https://www.paypal.com/donate/?hosted_button_id=SUPV8YKN5RXN8">Donate Now</a>
+                                {wishFound ? <span className='btn btn-danger mb-5 mr-3'><i className="fa fa-check-circle" aria-hidden="true"></i>&nbsp;&nbsp;Already added to watchlist</span> : <span className='btn btn-danger mb-5 mr-3' onClick={e => addEventToWishList()}>+ Watchlist</span>}
+                                <a className='btn btn-danger mb-5' href="https://www.paypal.com/donate/?hosted_button_id=SUPV8YKN5RXN8">Donate Now</a>
                             </div>
                             
                             <p className='text-white carousel-event-title'>Episodes</p>

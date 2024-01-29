@@ -4,7 +4,7 @@ export default class Title extends React.Component {
   render () {
     return (
       <div className=''>
-        <div className='text-white text-left title-padding container-fluid'>
+        <div className='text-white text-center title-padding container-fluid'>
           <label className='title-title mb-4'>Tv Dhwani</label>
           <figure class='text-end h4'>
             <blockquote class='blockquote'>
