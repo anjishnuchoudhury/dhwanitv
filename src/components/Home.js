@@ -10,6 +10,7 @@ import Footer from './Footer.js'
 import EventCatalogue from './EventCatalogue.js'
 import FreeEvents from './FreeEvents.js'
 import Categories from './Categories/Categories.jsx'
+import Series from './Series/Series.jsx'
 
 export default function Home () {
   useEffect(() => {
@@ -25,9 +26,10 @@ export default function Home () {
         <div className='gradient-div'></div>
       </div>
       <Categories/>
+      <Series/>
       {/* <About/> */}
       {/* <Events/> */}
-      <EventCatalogue />
+      {/* <EventCatalogue /> */}
       {/* <FreeEvents/> */}
       {/* <Metrics/> */}
       {/* <Contact/>  */}
