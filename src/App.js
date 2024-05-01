@@ -67,9 +67,6 @@ const App = () => {
             <Route path="/event/admin/book-for-artist" component={BookForArtist}/>
             <Route path="/redirecting" component={LoadingWrapper} />
             <Route path="*" component={Route404} />
-
-            
-
           </Switch>
         </AuthProvider>
       </Router>

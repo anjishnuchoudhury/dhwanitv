@@ -8,7 +8,7 @@ export default class Footer extends React.Component {
           className='footer-bg text-center text-white'
           id={this.props.footer}
         >
-          <div className='container footerdimensions'>
+          <div className='d-flex flex-column flex-md-row footerdimensions'>
             <div className='contact-info'>
               <h1
                 className='font-weight-bold text-sm-10 line-height-2 appear-animation'
