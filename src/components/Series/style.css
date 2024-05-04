@@ -1,51 +1,64 @@
-.serieswrappercontainer{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-    margin-top: 20px;
-    text-align: center;
-    color: white;
+.serieswrappercontainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 20px;
+  text-align: center;
+  color: white;
 }
 
-.seriestitle{
-    font-size: 2rem;
-    font-weight: 800;
-    margin-bottom: 20px;
+.seriestitle {
+  font-size: 2rem;
+  font-weight: 800;
+  margin-bottom: 20px;
 }
 
-.seriesparent{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 20px;
+.seriesparent {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-top: 20px;
 }
 
-.serieschild{
-    width: 17rem;
-    height: 25rem;
-    padding: 1rem;
-    border-radius: 30px;
-    text-align: center;
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-    font-weight: 800;
-    font-size: 1.5rem;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content:space-between;
+@media only screen and (max-width: 768px) {
+  .seriesparent {
+    gap: 20px;
+  }
 }
 
-.serieschild:hover{
-    background-color: #f1f1f1;
-    transform: scale(1.05);
+.serieschild {
+  width: 17rem;
+  height: 25rem;
+  padding: 1rem;
+  border-radius: 30px;
+  text-align: center;
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  font-weight: 800;
+  font-size: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.svgcontainer{
-    display: flex;
-    align-items: start;
-    width: 100%;
+@media only screen and (max-width: 768px) {
+    .serieschild {
+        width: 15rem;
+        height: 20rem;
+    }
+  }
+
+.serieschild:hover {
+  background-color: #f1f1f1;
+  transform: scale(1.05);
+}
+
+.svgcontainer {
+  display: flex;
+  align-items: start;
+  width: 100%;
 }

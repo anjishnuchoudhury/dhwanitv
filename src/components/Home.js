@@ -21,7 +21,7 @@ export default function Home () {
     <div>
       <div className="backdrop-image">
         {/* <div className='nav-gradient'></div> */}
-        {/* <Header /> */}
+        <Header />
         <Title />
         <div className='gradient-div'></div>
       </div>
