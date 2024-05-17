@@ -177,7 +177,7 @@ export default function ViewEvent(props) {
                                 </div>
                             </div>
                             <div className="row">
-                                <div className="col-12 mt-4">
+                                <div className="col-12 mt-4 text-white">
                                     <p>{props.location.event.description}</p>
                                 </div>
                             </div>

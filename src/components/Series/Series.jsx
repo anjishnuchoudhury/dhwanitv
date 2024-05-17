@@ -3,7 +3,7 @@ import style from "./style.css";
 
 const Series = () => {
   return (
-    <div className="serieswrappercontainer ">
+    <div className="serieswrappercontainer">
       <div className="seriestitle">INDIAN CLASSICAL MUSIC SERIES</div>
       <div className="seriesparent">
         <div className="serieschild">
