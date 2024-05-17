@@ -100,7 +100,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="d-flex align-items-center justify-content-center mt-5">
-                &copy 2024 TV Dhwani | Managed by SIDA Technologies
+                &copy; 2024 TV Dhwani | Managed by SIDA Technologies
               </div>
             </div>
           </div>
