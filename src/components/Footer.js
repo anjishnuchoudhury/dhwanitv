@@ -31,7 +31,7 @@ const Footer = () => {
                   <h3>Categories</h3>
                   <ul className="list-unstyled links">
                     <li>
-                      <a href="#">Music</a>
+                      <a href="#">Hello</a>
                     </li>
                     <li>
                       <a href="#">Drama</a>
