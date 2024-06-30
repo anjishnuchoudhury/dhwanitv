@@ -31,7 +31,7 @@ const Footer = () => {
                   <h3>Categories</h3>
                   <ul className="list-unstyled links">
                     <li>
-                      <a href="#">Hello</a>
+                      <a href="#">Music</a>
                     </li>
                     <li>
                       <a href="#">Drama</a>
@@ -52,9 +52,6 @@ const Footer = () => {
                     </li>
                     <li>
                       <a href="#">Raaga and Rhythm</a>
-                    </li>
-                    <li>
-                      <a href="#">Baisakhi</a>
                     </li>
                     <li>
                       <a href="#">Event</a>
